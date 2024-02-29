@@ -14,7 +14,7 @@ int factorial(int n){
         for (int j = 0; j <= (n-i-2); j++){
             cout << "  ";
         }
-        for(int j = 0; j <= i; j++){ // Use j instead of a
+        for(int j = 0; j <= i; j++){ // use j here 
             cout << factorial(i) / (factorial(j) * factorial(i - j)) << "  ";
         }
         cout << endl;
